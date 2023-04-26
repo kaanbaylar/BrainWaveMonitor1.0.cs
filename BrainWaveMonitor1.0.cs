@@ -3,29 +3,29 @@ using System.Windows.Forms;
 using ScottPlot;
 
 
-//  OpenBCI'nin Arduino ile çalışan EEG cihazı, sensörlerden gelen sinyalleri 
-//  okur ve bu sinyalleri bir bilgisayara veya başka bir cihaza aktarır. 
-//  Bu verileri okumak ve grafik olarak çizmek için birkaç yol vardır. 
-//  C# kullanarak, öncelikle Arduino'ya bağlı bir seri bağlantı açmanız gerekecektir.
+//  OpenBCI'nin Arduino ile Ã§alÄ±ÅŸan EEG cihazÄ±, sensÃ¶rlerden gelen sinyalleri 
+//  okur ve bu sinyalleri bir bilgisayara veya baÅŸka bir cihaza aktarÄ±r. 
+//  Bu verileri okumak ve grafik olarak Ã§izmek iÃ§in birkaÃ§ yol vardÄ±r. 
+//  C# kullanarak, Ã¶ncelikle Arduino'ya baÄŸlÄ± bir seri baÄŸlantÄ± aÃ§manÄ±z gerekecektir.
 
-//  Aşağıdaki kaynaklar, C# ve Arduino arasında seri bağlantı kurmak 
-//  ve veri okumak için farklı yaklaşımları göstermektedir:
+//  AÅŸaÄŸÄ±daki kaynaklar, C# ve Arduino arasÄ±nda seri baÄŸlantÄ± kurmak 
+//  ve veri okumak iÃ§in farklÄ± yaklaÅŸÄ±mlarÄ± gÃ¶stermektedir:
 //  https://www.c-sharpcorner.com/article/arduino-and-c-sharp-communication-via-serial-port/
 //  https://www.instructables.com/Reading-From-Arduino-to-C-Sharp/
 
-//  Seri bağlantıyı başarılı bir şekilde kurduktan sonra, 
-//  sensörlerden gelen verileri okumak için bir döngü kullanabiliriz. 
-//  Bu verileri grafik olarak çizmek için C#'da çeşitli 
-//  grafik kütüphaneleri mevcuttur. 
-//  Bazı popüler grafik kütüphaneleri şunlardır:
+//  Seri baÄŸlantÄ±yÄ± baÅŸarÄ±lÄ± bir ÅŸekilde kurduktan sonra, 
+//  sensÃ¶rlerden gelen verileri okumak iÃ§in bir dÃ¶ngÃ¼ kullanabiliriz. 
+//  Bu verileri grafik olarak Ã§izmek iÃ§in C#'da Ã§eÅŸitli 
+//  grafik kÃ¼tÃ¼phaneleri mevcuttur. 
+//  BazÄ± popÃ¼ler grafik kÃ¼tÃ¼phaneleri ÅŸunlardÄ±r:
 //  https://github.com/oxyplot/oxyplot
 //  https://github.com/swharden/ScottPlot
 //  https://github.com/microsoft/InteractiveDataDisplay.WPF
 
-//  Bu kütüphaneleri kullanarak sensörlerden gelen verileri okuyabilir 
-//  ve grafik olarak çizebiliriz. Ancak, EEG sinyalleri genellikle 
-//  çok düşük frekanslarda olduğu için, veri işleme teknikleri ve 
-//  filtreleme yöntemleri kullanmamız gerekebilir.
+//  Bu kÃ¼tÃ¼phaneleri kullanarak sensÃ¶rlerden gelen verileri okuyabilir 
+//  ve grafik olarak Ã§izebiliriz. Ancak, EEG sinyalleri genellikle 
+//  Ã§ok dÃ¼ÅŸÃ¼k frekanslarda olduÄŸu iÃ§in, veri iÅŸleme teknikleri ve 
+//  filtreleme yÃ¶ntemleri kullanmamÄ±z gerekebilir.
 
 //  The EEG device from OpenBCI is an Arduino-based device 
 //  that reads signals from sensors and transfers these signals 
