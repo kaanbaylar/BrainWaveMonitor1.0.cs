@@ -3,15 +3,15 @@ using System.Windows.Forms;
 using ScottPlot;
 
 
-//  Kod, bir beyin dalgası monitörü uygulaması oluşturmak için 
-//  ScottPlot kütüphanesini kullanmaktadır. 
-//  Uygulama, bir cihaza bağlanarak gelen verileri canlı 
-//  olarak görselleştirmektedir. Uygulama penceresi, 
-//  ScottPlot grafiği içermektedir ve bir "Bağlan" düğmesi, 
-//  "Bağlantıyı Kes" düğmesi ve birkaç diğer kontrol içermektedir. 
-//  Bağlan düğmesine tıklandığında, uygulama belirtilen cihaza bağlanacak 
-//  ve canlı verileri görüntülemeye başlayacaktır. Bağlantıyı Kes düğmesi, 
-//  cihaz bağlantısını keser ve veri akışını durdurur.
+//  Kod, bir beyin dalgasÄ± monitÃ¶rÃ¼ uygulamasÄ± oluÅŸturmak iÃ§in 
+//  ScottPlot kÃ¼tÃ¼phanesini kullanmaktadÄ±r. 
+//  Uygulama, bir cihaza baÄŸlanarak gelen verileri canlÄ± 
+//  olarak gÃ¶rselleÅŸtirmektedir. Uygulama penceresi, 
+//  ScottPlot grafiÄŸi iÃ§ermektedir ve bir "BaÄŸlan" dÃ¼ÄŸmesi, 
+//  "BaÄŸlantÄ±yÄ± Kes" dÃ¼ÄŸmesi ve birkaÃ§ diÄŸer kontrol iÃ§ermektedir. 
+//  BaÄŸlan dÃ¼ÄŸmesine tÄ±klandÄ±ÄŸÄ±nda, uygulama belirtilen cihaza baÄŸlanacak 
+//  ve canlÄ± verileri gÃ¶rÃ¼ntÃ¼lemeye baÅŸlayacaktÄ±r. BaÄŸlantÄ±yÄ± Kes dÃ¼ÄŸmesi, 
+//  cihaz baÄŸlantÄ±sÄ±nÄ± keser ve veri akÄ±ÅŸÄ±nÄ± durdurur.
 
 //  The code uses the ScottPlot library to create a brainwave monitor application. 
 //  The application visualizes the incoming data live by connecting to a device. 
